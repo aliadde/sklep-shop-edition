@@ -1,42 +1,59 @@
+:root {
+  --nav-bg: rgba(145, 145, 145, 0.522);
+  --main-color: #2b2b2b;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: 100vw;
+  margin: 0;
+  direction: rtl;
+  padding: 0;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+/* navbar  */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  width: 100vw;
+  background-color: var(--main-color);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+nav a {
+  margin: 0 2rem;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header button .nav-btn {
+  padding: 5px;
+  visibility: hidden;
+  opacity: 0;
+  outline: none;
+  border: none;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+header button .nav-btn:hover {
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  header button .nav-btn {
+    visibility: visible;
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 500ms;
+    transform: translateY(-100vh);
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .responsive-nav {
+    transform: none;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
