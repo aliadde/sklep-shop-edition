@@ -41,7 +41,8 @@
     gap: 20px;
   }
   .footer-box {
-    align-items: center;
+    width: 150px;
+    align-items: end;
   }
   #footer-hover {
     display: flex;

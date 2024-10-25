@@ -79,11 +79,6 @@ header button .nav-btn:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 /* home end */
-/* flex foot and category */
-.flex-footer-cat {
-  display: flex;
-  flex-direction: column;
-}
 
 /* categories start */
 .categories-section {
@@ -121,7 +116,7 @@ header button .nav-btn:hover {
   height: 150px;
   background-color: var(--main-color);
   border-radius: 20px;
-}+
+}
 .inside-box:hover {
   transition: 500ms;
   transform: scale3d(1.2, 1.2, 1);
