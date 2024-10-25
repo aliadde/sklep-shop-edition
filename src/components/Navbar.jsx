@@ -36,7 +36,11 @@ function Navbar() {
           <a href='#'>دسته بندی ها </a>
         </nav>
 
-        <h3>Logo</h3>
+        <img
+          src='/public/img/logo/no bg/no-bg-white.png'
+          alt='logo'
+          width={70}
+        />
       </header>
     </>
   );
