@@ -1,0 +1,33 @@
+@media (max-width: 578px) {
+  /* category start */
+
+  .categories-section {
+    width: 100vw;
+    min-height: 120px;
+    right: -1px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+  }
+
+  .flexbox-category {
+    width: 100vw;
+  }
+
+  .inside-box {
+    height: 100px;
+  }
+  /* اندازه انیمیشن ها  */
+  .game-animation {
+    max-width: 60px;
+  }
+  .makeup-animation {
+    max-width: 57px;
+  }
+  .digital-animation {
+    max-width: 60px;
+  }
+  .cloth-animation {
+    max-width: 60px;
+  }
+}

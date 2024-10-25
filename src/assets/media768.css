@@ -15,7 +15,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
     background-color: var(--main-color);
     transition: 600ms;
     transform: translateY(-100vh);
@@ -39,4 +38,29 @@
     font-size: 15px;
   }
   /* home end */
+  /* category start */
+
+  .categories-section {
+    width: 100vw;
+    height: 100px;
+    right: -1px;
+  }
+
+  .flexbox-category {
+    width: 130px;
+  }
+
+  /* اندازه انیمیشن ها  */
+  .game-animation {
+    max-width: 100px;
+  }
+  .makeup-animation {
+    max-width: 100px;
+  }
+  .digital-animation {
+    max-width: 110px;
+  }
+  .cloth-animation {
+    max-width: 120px;
+  }
 }

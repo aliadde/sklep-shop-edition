@@ -11,6 +11,7 @@
 }
 #root {
   max-width: 100vw;
+  height: auto;
   margin: 0;
   direction: rtl;
   padding: 0;
@@ -18,6 +19,8 @@
 body {
   font-family: "Vaziri", sans-serif;
   font-weight: 700;
+  height: 2000px;
+  overflow-x: hidden;
 }
 /* navbar start */
 header {
@@ -25,7 +28,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  padding: 0 2rem;
+  padding: 0 1rem;
   width: 100vw;
   background-color: var(--sec-bg);
 }
@@ -73,4 +76,57 @@ header button .nav-btn:hover {
   border-radius: 20px;
   backdrop-filter: blur(12px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+/* home end */
+
+/* categories start */
+.categories-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  min-height: 200px;
+  /* widht */
+  width: 700px;
+  position: relative;
+  top: calc(100vh - 10vh);
+  right: calc((100vw - 700px) / 2);
+  background-color: var(--sec-bg);
+  border-radius: 20px;
+}
+/* برای داخل باکس ها که وشته و انیمیشن هست  */
+.flexbox-category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  font-size: 15px;
+  text-align: center;
+  width: 120px;
+}
+/* داخل باکس ها  */
+.inside-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  background-color: var(--main-color);
+  border-radius: 20px;
+}
+
+/* اندازه انیمیشن ها  */
+.game-animation {
+  width: 100px;
+}
+.makeup-animation {
+  width: 100px;
+}
+.digital-animation {
+  width: 120px;
+}
+.cloth-animation {
+  width: 120px;
 }
