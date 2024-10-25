@@ -31,4 +31,23 @@
     max-width: 60px;
   }
   /* category end */
+
+  /* Footer start */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    gap: 20px;
+  }
+  .footer-box {
+    align-items: center;
+  }
+  #footer-hover {
+    display: flex;
+    gap: 10px;
+  }
+  .credit {
+    font-size: 17px;
+  }
 }

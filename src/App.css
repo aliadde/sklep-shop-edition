@@ -121,7 +121,7 @@ header button .nav-btn:hover {
   height: 150px;
   background-color: var(--main-color);
   border-radius: 20px;
-}
+}+
 .inside-box:hover {
   transition: 500ms;
   transform: scale3d(1.2, 1.2, 1);
