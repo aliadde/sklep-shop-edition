@@ -7,9 +7,10 @@ function Home() {
   return (
     <>
       <Navbar />
-
-      <Categories />
-      {/* <Footer /> */}
+      <div className='flex-footer-cat'>
+        <Categories />
+        <Footer />
+      </div>
     </>
   );
 }
