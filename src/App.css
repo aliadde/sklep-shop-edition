@@ -1,14 +1,22 @@
 :root {
-  --3th-bg: 
+  --3th-bg: #242424;
   --sec-bg: #90be9a9e;
   --main-color: #384859;
 }
-
+@font-face {
+  font-family: "Vaziri";
+  src: url("../public/font/Vazirmatn-Light.woff2") format("woff2");
+  font-weight: 500; /* وزن فونت را مشخص کنید */
+  font-style: normal;
+}
 #root {
   max-width: 100vw;
   margin: 0;
   direction: rtl;
   padding: 0;
+}
+body {
+  font-family: "Vaziri", sans-serif;
 }
 /* navbar  */
 header {
@@ -55,11 +63,11 @@ header button .nav-btn:hover {
     transition: 600ms;
     transform: translateY(-100vh);
   }
-  
+
   .responsive-nav {
     transform: none;
   }
-  
+
   nav .nav-close-btn {
     position: absolute;
     top: 2rem;

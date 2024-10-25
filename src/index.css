@@ -5,16 +5,15 @@
 :root {
   line-height: 1.5;
   font-weight: 400;
-
+  font-family: "Vaziri";
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.712);
-  background-color: #242424;
+  background-color: var(--3th-bg);
 }
 
 body {
   margin: 0;
   display: flex;
-  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
