@@ -1,5 +1,6 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { domainToASCII } from "url";
 function Navbar() {
   let navRef = useRef();
 
@@ -9,6 +10,14 @@ function Navbar() {
     }
   };
 
+  // check window size
+  const btn = document.getElementsByClassName("nav-btn").style;
+  // useEffect(() => {
+  //   if (window.innerWidth > 768) {
+  //     btn.visibility = "hidden";
+  //   }
+  // });
+  // .style.visibility = "hidden";
   return (
     <>
       <header>
