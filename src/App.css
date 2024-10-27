@@ -19,7 +19,7 @@
 body {
   font-family: "Vaziri", sans-serif;
   font-weight: 700;
-  height: 1000px;
+  height: 2000px;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -140,7 +140,7 @@ header button .nav-btn:hover {
 .credit {
   width: 180px;
   position: relative;
-  top: calc(600px - 20px);
+  top: calc(600px + 20px);
   right: calc((100vw - 180px) / 2);
 }
 .credit span {
@@ -152,7 +152,7 @@ header button .nav-btn:hover {
   direction: ltr;
   width: 100vw;
   position: relative;
-  top: calc(600px - 70px);
+  top: calc(600px + 20px);
   display: flex;
   flex: 1;
   justify-content: space-around;
