@@ -140,7 +140,7 @@ header button .nav-btn:hover {
 .credit {
   width: 180px;
   position: relative;
-  top: calc(2000px - 20px);
+  top: calc(600px - 20px);
   right: calc((100vw - 180px) / 2);
 }
 .credit span {
@@ -152,7 +152,7 @@ header button .nav-btn:hover {
   direction: ltr;
   width: 100vw;
   position: relative;
-  top: calc(2000px - 70px);
+  top: calc(600px - 70px);
   display: flex;
   flex: 1;
   justify-content: space-around;
@@ -481,3 +481,56 @@ header button .nav-btn:hover {
   margin-right: 55px;
 }
 /* scroll makeup end  */
+
+/* scroll digital start */
+
+#Digital-Section {
+  padding: 10px 0 10px 0;
+  position: relative;
+  top: calc(100vh - 7vh);
+  height: 380px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--sec-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+#Digital-Section h2 {
+  color: #fff;
+}
+
+.digital-box-container {
+  display: flex;
+  direction: rtl;
+  overflow-x: auto;
+  height: calc(400px - 20px - 30px);
+  display: flex;
+  gap: 20px;
+}
+.digital-box {
+  background-color: var(--main-color);
+  min-width: 200px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(0, 0, 0, 0.1);
+  box-shadow: 4px 3px 0.5px rgb(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 12px 10px 10px 10px;
+  margin: 12px 10px 10px 10px;
+}
+.digital-box P {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #3c3c3c;
+  border-radius: 10px;
+  padding-top: 7px;
+  margin: 2px 3px;
+}

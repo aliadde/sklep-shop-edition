@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import ScrollCloth from "../components/ScrollCloth";
 import ScrollGame from "../components/ScrollGame";
 import ScrollMakeup from "../components/ScrollMakeup";
+import ScrollDigital from "../components/ScrollDigital";
 function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ function Home() {
         <ScrollCloth />
         <ScrollGame />
         <ScrollMakeup />
+        <ScrollDigital />
         <Footer />
       </div>
     </>
