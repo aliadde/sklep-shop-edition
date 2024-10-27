@@ -534,3 +534,8 @@ header button .nav-btn:hover {
   padding-top: 7px;
   margin: 2px 3px;
 }
+.flex-all {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

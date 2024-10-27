@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className='flex-footer-cat'>
+      <div className='flex-all'>
         <Categories />
         <ScrollCloth />
         <ScrollGame />
