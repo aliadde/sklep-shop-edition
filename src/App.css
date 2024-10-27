@@ -290,3 +290,84 @@ header button .nav-btn:hover {
   padding: 30px 45px 15px;
 }
 /* scroll cloth component end */
+
+/* Scrll Game start   */
+
+#Game-Section {
+  padding: 10px 0 10px 0;
+  position: relative;
+  top: calc(100vh - 7vh);
+  height: 380px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--sec-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+#Game-Section h2 {
+  color: #fff;
+}
+
+.game-box-container {
+  display: flex;
+  direction: rtl;
+  overflow-x: auto;
+  height: calc(400px - 20px - 30px);
+  display: flex;
+  gap: 20px;
+}
+.game-box {
+  background-color: var(--main-color);
+  min-width: 200px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(0, 0, 0, 0.1);
+  box-shadow: 4px 3px 0.5px rgb(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 12px 10px 10px 10px;
+  margin: 12px 10px 10px 10px;
+}
+#img-1,
+#img-2,
+#img-3,
+#img-4,
+#img-5,
+#img-6,
+#img-7,
+#img-8 {
+  padding: 30px 45px 15px;
+  width: 270px;
+}
+
+#img-9,
+#img-10,
+#img-11,
+#img-12,
+#img-13,
+#img-14,
+#img-15,
+#img-16,
+#img-17 {
+  width: 270px;
+  padding: 30px 50px 15px;
+}
+.game-box img {
+  padding-left: 20px;
+}
+.game-box P {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #3c3c3c;
+  border-radius: 10px;
+  padding-top: 7px;
+  margin: 2px 3px;
+}
+/* scroll game end */
