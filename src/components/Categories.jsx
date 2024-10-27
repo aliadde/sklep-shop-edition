@@ -4,6 +4,7 @@ import digitalanimation from "/public/img/باکس های کتگوری/digital-a
 import clothanimation from "/public/img/باکس های کتگوری/cloth-animation/cloth-animation.json";
 import makeupanimation from "/public/img/باکس های کتگوری/makeup-animation/nakeup-animation.json";
 import Lottie from "lottie-react";
+
 function Categories() {
   useEffect(() => {
     // if hover on the box of categories

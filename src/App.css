@@ -178,3 +178,115 @@ header button .nav-btn:hover {
   transform: scaleX(1.2);
 }
 /* footer end */
+
+/* scroll cloth  start */
+#Cloth-Section {
+  padding: 10px 0 10px 0;
+  position: relative;
+  top: calc(100vh - 7vh);
+  height: 380px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--sec-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+#Cloth-Section h2 {
+  color: #fff;
+}
+
+.cloth-box-container {
+  display: flex;
+  direction: rtl;
+  overflow-x: auto;
+  height: calc(400px - 20px - 30px);
+  display: flex;
+  gap: 20px;
+}
+.cloth-box {
+  background-color: var(--main-color);
+  min-width: 200px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(0, 0, 0, 0.1);
+  box-shadow: 4px 3px 0.5px rgb(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 12px 10px 10px 10px;
+  margin: 12px 10px 10px 10px;
+}
+.cloth-box:focus,
+.cloth-box:hover {
+  transition: 500ms;
+  transform: scale3d(1.1, 1.1, 1);
+}
+.cloth-box P {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #3c3c3c;
+  border-radius: 10px;
+  padding-top: 7px;
+  margin: 2px 3px;
+}
+
+#cloth-img-1,
+#cloth-img-2,
+#cloth-img-3,
+#cloth-img-4,
+#cloth-img-5,
+#cloth-img-6,
+#cloth-img-7 {
+  padding: 30px 45px 15px;
+}
+#cloth-img-1 {
+  width: 270px;
+  margin-left: 28px;
+}
+#cloth-img-2 {
+  width: 170px;
+  margin-left: 30px;
+}
+#cloth-img-3 {
+  margin-right: 20px;
+  width: 140px;
+}
+#cloth-img-5 {
+  width: 270px;
+  margin-right: 20px;
+}
+#cloth-img-6 {
+  margin-right: 30px;
+  width: 250px;
+}
+#cloth-img-7 {
+  width: 255px;
+  margin-right: 30px;
+}
+#cloth-img-10 {
+  width: 137px;
+  margin-right: 20px;
+}
+#cloth-img-11 {
+  width: 150px;
+  margin-right: 10px;
+}
+#cloth-img-13 {
+  width: 240px;
+  margin-right: 20px;
+}
+#cloth-img-8,
+#cloth-img-9,
+#cloth-img-10,
+#cloth-img-11,
+#cloth-img-12,
+#cloth-img-13 {
+  padding: 30px 45px 15px;
+}
+/* scroll cloth component end */
