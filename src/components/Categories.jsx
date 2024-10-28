@@ -23,10 +23,10 @@ function Categories() {
           <div>
             <h3>چی لازم دارید؟ </h3>
             <br />
-            <a href='.flexbox-category'>دسته بندی ها</a>
           </div>
         </div>
       </section>
+      <h1 id='dastebandy'>دسته بندی ها</h1>
       <section className='categories-section'>
         <div className='flexbox-category'>
           <div className='inside-box'>
