@@ -140,7 +140,7 @@ header button .nav-btn:hover {
 .credit {
   width: 180px;
   position: relative;
-  top: calc(600px + 20px);
+  top: calc(2000px - 1200px);
   right: calc((100vw - 180px) / 2);
 }
 .credit span {
@@ -152,7 +152,7 @@ header button .nav-btn:hover {
   direction: ltr;
   width: 100vw;
   position: relative;
-  top: calc(600px + 20px);
+  top: calc(2000px - 1200px);
   display: flex;
   flex: 1;
   justify-content: space-around;
@@ -538,5 +538,5 @@ header button .nav-btn:hover {
 .flex-all {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
 }
