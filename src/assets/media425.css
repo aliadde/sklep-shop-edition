@@ -1,0 +1,6 @@
+@media (max-width: 425) {
+  .footer-container,
+  .credit {
+    top: calc(2000px - 2060px);
+  }
+}

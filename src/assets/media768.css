@@ -65,10 +65,8 @@
   }
   /* category end */
   /* footer start */
-  .footer-container {
-    top: calc(2000px - 900px);
-  }
+  .footer-container,
   .credit {
-    top: calc(2000px - 900px);
+    top: calc(2000px - 2100px);
   }
 }
