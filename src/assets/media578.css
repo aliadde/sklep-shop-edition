@@ -48,10 +48,6 @@
     display: flex;
     gap: 10px;
   }
-  .footer-container,
-  .credit {
-    top: calc(2000px - 1200px);
-  }
   .credit {
     font-size: 17px;
   }

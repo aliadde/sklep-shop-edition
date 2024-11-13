@@ -19,7 +19,7 @@
 body {
   font-family: "Vaziri", sans-serif;
   font-weight: 700;
-  height: 2000px;
+  height: auto;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -50,6 +50,15 @@ header button .nav-btn:hover {
 /* navbar end */
 
 /* home start */
+.background-image{
+  width: 100vw; 
+  min-height: calc(100vh - 80px);
+  background-image: url("/public/img/home/image-of-homepage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center fixed;
+  z-index: -1;
+}
 .home-section {
   display: flex;
   flex-direction: column;
@@ -57,14 +66,10 @@ header button .nav-btn:hover {
   align-items: center;
   width: 100vw;
   min-height: calc(100vh - 80px);
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
   position: absolute;
   top: 80px;
-  background-image: url("/public/img/home/image-of-homepage.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
+
 }
 .home-box {
   display: flex;
@@ -86,9 +91,8 @@ header button .nav-btn:hover {
   font-size: large;
   color: #fff;
   position: relative;
-  top: calc(100vh - 7vh);
+  /* top: calc(100vh); */
   right: calc((100vw - 180px) / 2);
-  /* margin-bottom: 30px; */
   border-radius: 20px;
   border: 4px solid var(--main-color);
   width: fit-content;
@@ -104,7 +108,7 @@ header button .nav-btn:hover {
   /* widht */
   width: 900px;
   position: relative;
-  top: calc(100vh - 10vh);
+  /* top: calc(100vh - 10vh); */
   right: calc((100vw - 900px) / 2);
   background-color: var(--sec-bg);
   border-radius: 20px;
@@ -154,19 +158,28 @@ header button .nav-btn:hover {
 .credit {
   width: 180px;
   position: relative;
-  top: calc(2000px - 1600px);
+  bottom: 0px ;
   right: calc((100vw - 180px) / 2);
 }
 .credit span {
   text-transform: uppercase;
 }
+.flexed {
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+
+}
+.make-flex-home {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-container {
   /* 2000px */
   padding-top: 30px;
   direction: ltr;
   width: 100vw;
-  position: relative;
-  top: calc(2000px - 1600px);
   display: flex;
   flex: 1;
   justify-content: space-around;
@@ -198,7 +211,7 @@ header button .nav-btn:hover {
 #Cloth-Section {
   padding: 10px 0 10px 0;
   position: relative;
-  top: calc(100vh - 7vh);
+  /* top: calc(100vh - 7vh); */
   height: 380px;
   text-align: center;
   border-radius: 15px;
@@ -258,7 +271,7 @@ header button .nav-btn:hover {
 #Game-Section {
   padding: 10px 0 10px 0;
   position: relative;
-  top: calc(100vh - 7vh);
+  /* top: calc(100vh - 7vh); */
   height: 380px;
   text-align: center;
   border-radius: 15px;
@@ -317,7 +330,7 @@ header button .nav-btn:hover {
 #Makeup-Section {
   padding: 10px 0 10px 0;
   position: relative;
-  top: calc(100vh - 5vh);
+  /* top: calc(100vh - 5vh);++ */
   height: 380px;
   text-align: center;
   border-radius: 15px;
@@ -376,7 +389,7 @@ header button .nav-btn:hover {
 #Digital-Section {
   padding: 10px 0 10px 0;
   position: relative;
-  top: calc(100vh - 5vh);
+  /* top: calc(100vh - 5vh); */
   height: 380px;
   text-align: center;
   border-radius: 15px;

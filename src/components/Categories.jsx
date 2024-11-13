@@ -18,15 +18,8 @@ function Categories() {
 
   return (
     <>
-      <section className='home-section'>
-        <div className='home-box'>
-          <div>
-            <h3>چی لازم دارید؟ </h3>
-            <br />
-          </div>
-        </div>
-      </section>
-      <h1 id='dastebandy'>دسته بندی ها</h1>
+
+      <h1 id='dastebandy' className="m-3">دسته بندی ها</h1>
       <section className='categories-section'>
         <div className='flexbox-category'>
           <div className='inside-box'>

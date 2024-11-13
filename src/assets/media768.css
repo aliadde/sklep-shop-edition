@@ -64,9 +64,5 @@
     max-width: 120px;
   }
   /* category end */
-  /* footer start */
-  .footer-container,
-  .credit {
-    top: calc(2000px - 2100px);
-  }
+
 }

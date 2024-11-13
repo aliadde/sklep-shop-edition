@@ -72,7 +72,7 @@ const ScrollCloth = () => {
           </div>
         </div>
       </section>
-      *
+      
     </>
   );
 };
